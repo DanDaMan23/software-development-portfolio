@@ -1,7 +1,8 @@
+import { useState } from "react"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import NavigationArea from "./navigation-area/navigation-area"
-import { useState } from "react"
+import MediaLinks from "./media-links"
 
 export default function Header() {
   const [showNavigation, setShowNavigation] = useState(false)
@@ -12,10 +13,11 @@ export default function Header() {
   return (
     <div className='fixed top-0 left-0 w-full overflow-hidden'>
       <div className='flex justify-between items-center p-3'>
-        <div>
+        <div className='flex flex-col gap-1'>
           <p className='text-2xl font-extrabold'>Dan Lawrence Consengco</p>
           <p className='text-lg font-bold'>Software Developer</p>
           <p>I build responsive web applications</p>
+          <MediaLinks />
         </div>
         <button
           onClick={toggleNavigationHandler}

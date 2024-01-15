@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div className='bg-black text-light-gray p-3'>
       <Header />
-      <p className='pt-32'>About Section</p>
+      <p className='pt-40'>About Section</p>
     </div>
   )
 }

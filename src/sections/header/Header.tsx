@@ -10,8 +10,8 @@ export default function Header() {
     setShowNavigation((prevState) => !prevState)
 
   return (
-    <>
-      <div className='p-3 flex justify-between items-center'>
+    <div className='fixed top-0 left-0 w-full overflow-hidden'>
+      <div className='flex justify-between items-center p-3'>
         <div>
           <p className='text-2xl font-extrabold'>Dan Lawrence Consengco</p>
           <p className='text-lg font-bold'>Software Developer</p>
@@ -19,7 +19,7 @@ export default function Header() {
         </div>
         <button
           onClick={toggleNavigationHandler}
-          className='px-2 py-1 border border-solid border-light-gray rounded-md'
+          className='px-2 py-1 border border-solid border-light-gray rounded-md '
         >
           <FontAwesomeIcon className='text-light-gray' icon={faBars} />
         </button>
@@ -28,6 +28,6 @@ export default function Header() {
         isOpen={showNavigation}
         toggleNavigationHandler={toggleNavigationHandler}
       />
-    </>
+    </div>
   )
 }

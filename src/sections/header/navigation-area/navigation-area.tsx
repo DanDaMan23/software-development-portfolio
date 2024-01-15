@@ -50,12 +50,16 @@ export default function NavigationArea({
 
   return (
     <div
-      className={`flex flex-col border-y border-light-gray ${
+      className={`flex flex-col border-y border-light-gray bg-dark-gray text-light-gray ${
         showNavigation ? "block" : "hidden"
       }`}
     >
       {navigationItems.map(({ label, onClickEvent }, index) => (
-        <button key={index} onClick={onClickEvent} className='border-b py-3'>
+        <button
+          key={index}
+          onClick={onClickEvent}
+          className='border-b py-3 font-bold'
+        >
           {label}
         </button>
       ))}

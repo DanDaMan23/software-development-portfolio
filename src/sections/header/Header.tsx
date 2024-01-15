@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import NavigationArea from "./navigation-area/navigation-area"
 import MediaLinks from "./media-links"
+import text from "./text.json"
 
 export default function Header() {
   const [showNavigation, setShowNavigation] = useState(false)
@@ -14,9 +15,9 @@ export default function Header() {
     <div className='fixed top-0 left-0 w-full overflow-hidden'>
       <div className='flex justify-between items-center p-3'>
         <div className='flex flex-col gap-1'>
-          <p className='text-2xl font-extrabold'>Dan Lawrence Consengco</p>
-          <p className='text-lg font-bold'>Software Developer</p>
-          <p>I build responsive web applications</p>
+          <p className='text-2xl font-extrabold'>{text.name}</p>
+          <p className='text-lg font-bold'>{text.title}</p>
+          <p>{text.blurb}</p>
           <MediaLinks />
         </div>
         <button

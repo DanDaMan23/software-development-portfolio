@@ -1,11 +1,9 @@
-function App() {
+import Header from "./sections/header/Header"
+
+export default function App() {
   return (
     <div className='bg-black text-light-gray'>
-      <div>
-        <h1 className='text-3xl'>Dan Lawrence Consengco</h1>
-      </div>
+      <Header />
     </div>
   )
 }
-
-export default App

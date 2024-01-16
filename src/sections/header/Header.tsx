@@ -12,7 +12,7 @@ export default function Header() {
     setShowNavigation((prevState) => !prevState)
 
   return (
-    <div className='fixed top-0 left-0 w-full overflow-hidden'>
+    <div className='fixed top-0 left-0 w-full overflow-hidden bg-black'>
       <div className='flex justify-between items-center p-3'>
         <div className='flex flex-col gap-1'>
           <p className='text-2xl font-extrabold'>{text.name}</p>

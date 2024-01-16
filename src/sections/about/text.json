@@ -1,0 +1,21 @@
+{
+  "mainTitle": "About Me",
+  "whoAmI": {
+    "title": "Who Am I?",
+    "description": "I am a Software Developer that builds responsive applications throughout various devices."
+  },
+  "mySkills": {
+    "title": "My Skills",
+    "skillsSet": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "MySQL",
+      "Tailwind"
+    ]
+  }
+}

@@ -7,7 +7,8 @@ export default function MySkills() {
     "Node.js",
     "Express.js",
     "MongoDB",
-    "MySQL"
+    "MySQL",
+    "Tailwind"
   ]
 
   return (

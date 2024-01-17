@@ -6,8 +6,8 @@ export default function Work() {
   return (
     <div>
       <p className='text-xl font-bold mb-3'>{text.work.title}</p>
-      {text.work.workList.map((work) => (
-        <ExperienceCard {...work} />
+      {text.work.workList.map((work, index) => (
+        <ExperienceCard key={index} {...work} />
       ))}
     </div>
   )

@@ -42,16 +42,12 @@ export default function ExperienceCard({
           </p>
         ))}
       </div>
-      <Modal
-        isOpen={isOpenModal}
-        onClose={closeModalHandler}
-        footer={<div>Helo from the other side</div>}
-      >
+      <Modal isOpen={isOpenModal} onClose={closeModalHandler}>
         <div className='p-3'>
           <p className='text-xl font-bold'>{workplace}</p>
           <p className='font-bold'>{position}</p>
           <p>{description}</p>
-          <div className='flex justify-start gap-3 py-2 pl-1'>
+          <div className='flex flex-wrap justify-start gap-3 py-2 pl-1'>
             {technologyUsed.map((value, index) => (
               <p
                 key={index}

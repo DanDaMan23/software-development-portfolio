@@ -8,5 +8,7 @@
       "sourceCodeLink": "https://github.com/DanDaMan23/dan-personal-blog",
       "liveLink": "https://dan-lawrence-consengco.netlify.app/"
     }
-  ]
+  ],
+  "sourceCodeLabel": "Source Code",
+  "liveLinkLabel": "Live Link"
 }

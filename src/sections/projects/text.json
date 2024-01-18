@@ -1,0 +1,12 @@
+{
+  "title": "Projects",
+  "projects": [
+    {
+      "name": "Personal Blog",
+      "imagePath": "/images/project-images/personal-blog.png",
+      "techStack": ["React", "TypeScript", "SCSS"],
+      "sourceCodeLink": "https://github.com/DanDaMan23/dan-personal-blog",
+      "liveLink": "https://dan-lawrence-consengco.netlify.app/"
+    }
+  ]
+}

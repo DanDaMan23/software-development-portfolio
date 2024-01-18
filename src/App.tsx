@@ -1,6 +1,7 @@
 import About from "./sections/about/about"
 import Experience from "./sections/experience/experience"
 import Header from "./sections/header/Header"
+import Projects from "./sections/projects/projects"
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Header />
       <About />
       <Experience />
+      <Projects />
     </div>
   )
 }

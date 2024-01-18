@@ -7,6 +7,19 @@
       "techStack": ["React", "TypeScript", "SCSS"],
       "sourceCodeLink": "https://github.com/DanDaMan23/dan-personal-blog",
       "liveLink": "https://dan-lawrence-consengco.netlify.app/"
+    },
+    {
+      "name": "Dating REST API",
+      "imagePath": "/images/project-images/dating-rest-api-postman-docs.png",
+      "techStack": ["Node.js", "Express", "TypeScript", "MongoDB"],
+      "sourceCodeLink": "https://github.com/DanDaMan23/dating-rest-api"
+    },
+    {
+      "name": "Quiz App",
+      "imagePath": "/images/project-images/quiz-app.png",
+      "techStack": ["Svelte", "SCSS"],
+      "sourceCodeLink": "https://github.com/DanDaMan23/big-dev-soon-quiz-app-freerun-r1hnzb",
+      "liveLink": "https://quizapp-svelte.netlify.app/"
     }
   ],
   "sourceCodeLabel": "Source Code",

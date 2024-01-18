@@ -49,12 +49,16 @@ export default function ProjectCard({
   const modalFooter =
     sourceCodeLink || liveLink ? (
       <div className='flex justify-around'>
-        <a href={sourceCodeLink} target='_blank' rel='noopener noreferrer'>
-          {text.sourceCodeLabel} <FontAwesomeIcon icon={faLink} />
-        </a>
-        <a href={liveLink} target='_blank' rel='noopener noreferrer'>
-          {text.liveLinkLabel} <FontAwesomeIcon icon={faLink} />
-        </a>
+        {sourceCodeLink && (
+          <a href={sourceCodeLink} target='_blank' rel='noopener noreferrer'>
+            {text.sourceCodeLabel} <FontAwesomeIcon icon={faLink} />
+          </a>
+        )}
+        {liveLink && (
+          <a href={liveLink} target='_blank' rel='noopener noreferrer'>
+            {text.liveLinkLabel} <FontAwesomeIcon icon={faLink} />
+          </a>
+        )}
       </div>
     ) : undefined
 

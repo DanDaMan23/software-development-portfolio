@@ -19,5 +19,24 @@
         ]
       }
     ]
+  },
+  "volunteer": {
+    "title": "Volunteer / Freelance",
+    "volunteerList": [
+      {
+        "date": "December 2023 - Present",
+        "workplace": "My Student Wellbeing",
+        "position": "Web Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quod ipsam molestias itaque voluptatibus quo. Rerum assumenda explicabo consequatur nobis, facere sint dolore laborum consectetur obcaecati repellat, quae unde distinctio.",
+        "technologyUsed": ["HTML", "CSS", "JavaScript"]
+      },
+      {
+        "date": "September 2023 - December 2023",
+        "workplace": "Tech Thursday Site",
+        "position": "Web Developer",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quod ipsam molestias itaque voluptatibus quo. Rerum assumenda explicabo consequatur nobis, facere sint dolore laborum consectetur obcaecati repellat, quae unde distinctio.",
+        "technologyUsed": ["Next.js", "TypeScript", "Tailwind", "Figma"]
+      }
+    ]
   }
 }

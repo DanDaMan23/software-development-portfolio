@@ -25,7 +25,7 @@ export default function ExperienceCard({
   const closeModalHandler = () => setIsOpenModal(false)
 
   return (
-    <div>
+    <div className='my-4'>
       <p className='text-sm'>{date}</p>
       <button className='text-xl font-bold' onClick={openModalHandler}>
         {workplace} <FontAwesomeIcon icon={faArrowUpRightFromSquare} />

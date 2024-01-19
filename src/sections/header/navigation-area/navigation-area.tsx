@@ -1,4 +1,5 @@
-import { useEffect, useState } from "react"
+import { RefObject, useContext, useEffect, useState } from "react"
+import { NavigationContext } from "../../../navigation-context"
 
 interface NavigationAreaProps {
   isOpen: boolean
@@ -11,23 +12,33 @@ export default function NavigationArea({
 }: NavigationAreaProps) {
   const [showNavigation, setShowNavigation] = useState(false)
 
+  const {
+    aboutSectionRef,
+    experienceSectionRef,
+    projectsSectionRef,
+    scrollToDiv
+  } = useContext(NavigationContext)
+
   const navigationItems = [
     {
       label: "About",
       onClickEvent: () => {
         toggleNavigationHandler()
+        scrollToDiv(aboutSectionRef as RefObject<HTMLDivElement>)
       }
     },
     {
       label: "Experience",
       onClickEvent: () => {
         toggleNavigationHandler()
+        scrollToDiv(experienceSectionRef as RefObject<HTMLDivElement>)
       }
     },
     {
       label: "Projects",
       onClickEvent: () => {
         toggleNavigationHandler()
+        scrollToDiv(projectsSectionRef as RefObject<HTMLDivElement>)
       }
     },
     {

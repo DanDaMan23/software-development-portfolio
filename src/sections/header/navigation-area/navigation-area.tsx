@@ -16,6 +16,8 @@ export default function NavigationArea({
     aboutSectionRef,
     experienceSectionRef,
     projectsSectionRef,
+    educationSectionRef,
+    contactSectionRef,
     scrollToDiv
   } = useContext(NavigationContext)
 
@@ -45,12 +47,14 @@ export default function NavigationArea({
       label: "Education",
       onClickEvent: () => {
         toggleNavigationHandler()
+        scrollToDiv(educationSectionRef as RefObject<HTMLDivElement>)
       }
     },
     {
       label: "Contact",
       onClickEvent: () => {
         toggleNavigationHandler()
+        scrollToDiv(contactSectionRef as RefObject<HTMLDivElement>)
       }
     }
   ]

@@ -25,10 +25,12 @@ export default function NavigaitonContextProvider({
 }) {
   const scrollToDiv = (sectionRef: RefObject<HTMLDivElement>) => {
     if (sectionRef.current) {
-      sectionRef.current.scrollIntoView({
-        behavior: "smooth",
-        block: "nearest"
-      })
+      const scrollTo =
+        sectionRef.current.getBoundingClientRect().top -
+        document.body.getBoundingClientRect().top -
+        160
+
+      window.scrollTo({ behavior: "smooth", top: scrollTo })
     }
   }
 

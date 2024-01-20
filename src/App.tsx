@@ -1,5 +1,6 @@
 import NavigaitonContextProvider from "./navigation-context"
 import About from "./sections/about/about"
+import Contact from "./sections/contact/contact"
 import Education from "./sections/education/education"
 import Experience from "./sections/experience/experience"
 import Header from "./sections/header/Header"
@@ -14,6 +15,7 @@ export default function App() {
         <Experience />
         <Projects />
         <Education />
+        <Contact />
       </NavigaitonContextProvider>
     </div>
   )

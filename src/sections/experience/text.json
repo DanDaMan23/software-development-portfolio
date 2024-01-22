@@ -27,15 +27,15 @@
         "date": "December 2023 - Present",
         "workplace": "My Student Wellbeing",
         "position": "Web Developer",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quod ipsam molestias itaque voluptatibus quo. Rerum assumenda explicabo consequatur nobis, facere sint dolore laborum consectetur obcaecati repellat, quae unde distinctio.",
+        "description": "Enhanced the responsiveness of the crossword puzzle generator across various devices, enabling users to create crossword puzzles on their mobile phones. Implemented the addition of headers for access to the external WordPress site and included a footer for access to terms and conditions.",
         "technologyUsed": ["HTML", "CSS", "JavaScript"]
       },
       {
         "date": "September 2023 - December 2023",
         "workplace": "Tech Thursday Site",
         "position": "Web Developer",
-        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, quod ipsam molestias itaque voluptatibus quo. Rerum assumenda explicabo consequatur nobis, facere sint dolore laborum consectetur obcaecati repellat, quae unde distinctio.",
-        "technologyUsed": ["Next.js", "TypeScript", "Tailwind", "Figma"]
+        "description": "Served as a volunteer developer within a group tasked with building a website for Tech Thursday, showcasing upcoming events and their respective speakers. Engaged in collaboration with fellow developers to streamline the development process, mitigating merge conflicts and prioritizing high code quality for easy auditability. Additionally, collaborated with a UI/UX designer to ensure the website's user-friendliness and visual appeal.",
+        "technologyUsed": ["Next.js", "TypeScript", "Tailwind"]
       }
     ]
   }

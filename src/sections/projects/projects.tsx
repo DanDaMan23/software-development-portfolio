@@ -10,9 +10,11 @@ export default function Projects() {
   return (
     <div ref={projectsSectionRef}>
       <p className='text-center font-bold text-2xl my-3'>{text.title}</p>
-      {text.projects.map((project, index) => (
-        <ProjectCard key={index} {...project} />
-      ))}
+      <div className='flex flex-col lg:flex-row lg:justify-between gap-3'>
+        {text.projects.map((project, index) => (
+          <ProjectCard key={index} {...project} />
+        ))}
+      </div>
     </div>
   )
 }

@@ -12,6 +12,7 @@ interface ProjectCardProps {
   name: string
   imagePath: string
   techStack: Array<string>
+  details: string
   sourceCodeLink?: string
   liveLink?: string
 }
@@ -20,6 +21,7 @@ export default function ProjectCard({
   name,
   imagePath,
   techStack,
+  details,
   sourceCodeLink,
   liveLink
 }: ProjectCardProps) {
@@ -70,8 +72,9 @@ export default function ProjectCard({
     >
       <div className='p-3'>
         <p className='text-xl font-bold'>{name}</p>
-        <ProjectImage />
+        <p>{details}</p>
         <TechStackPills />
+        <ProjectImage />
       </div>
     </Modal>
   )
